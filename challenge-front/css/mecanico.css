@@ -1,0 +1,86 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 24px;
+  color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5498d7;
+  margin-right: 20px;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-right: 20px;
+}
+
+.current-orders article {
+  border: 2px solid #dddddd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.order-details {
+  display: flex;
+  align-items: center;
+}
+
+.order-details img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  background-color: #040404;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header, .profile-info, .order-details {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .header nav {
+      margin-top: 10px;
+  }
+
+  .profile-info, .order-details {
+      margin-top: 10px;
+  }
+}

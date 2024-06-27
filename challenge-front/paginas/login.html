@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>MechAI - Login</title>
+    <link rel="stylesheet" href="../css/login.css" />
+</head>
+<body>
+    <div class="container" id="template-areas">
+        <header id="header1">
+            <div class="header-MechAI"><h2>MechAI</h2></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="./about.html">Sobre nós</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="login-form">
+            <form id="authForm" onsubmit="return handleLogin(event)">
+                <h2>Login</h2>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required />
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required />
+                <button type="submit">Logar</button>
+                <button type="button" onclick="handleCancel()">Cancelar</button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+        </div>
+
+        <footer id="footer">
+            <h2>MechAI</h2>
+            <h3>Copyright</h3>
+        </footer>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

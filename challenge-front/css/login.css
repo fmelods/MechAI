@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: grid;
+  min-height: 100vh;
+  width: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+#header1,
+#footer {
+  background-color: black;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+#header1 h2,
+#footer h2 {
+  font-size: 2vw;
+}
+
+#menu ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#menu ul li {
+  margin-left: 20px;
+}
+
+#menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu ul li a:hover {
+  text-decoration: underline;
+}
+
+#login-form {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#authForm {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#authForm h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#authForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+#authForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#authForm button {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#authForm button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+#authForm button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}

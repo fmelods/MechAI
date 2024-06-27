@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #040404;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: #5498d7;
+  font-size: 32px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.historico {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.order {
+  background-color: #fff;
+  border: 2px solid #dddddd;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.order-info {
+  flex: 1;
+}
+
+.order-date,
+.order-address,
+.order-price {
+  font-size: 20px;
+}
+
+.order-date {
+  font-size: 16px;
+  color: #666;
+}
+
+.order-address {
+  font-size: 18px;
+}
+
+.order-map {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.order-button {
+  padding: 0.5rem 1rem;
+  background-color: #858585;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.previous-orders {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #040404;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .order {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-map {
+    width: 100%;
+    height: auto;
+  }
+
+  .order-button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-info {
+    font-size: 18px;
+  }
+
+  .order-date,
+  .order-address,
+  .order-price {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .navbar-links a {
+    font-size: 16px;
+  }
+
+  .order-info {
+    font-size: 16px;
+  }
+
+  .order-date,
+  .order-address,
+  .order-price {
+    font-size: 14px;
+  }
+}

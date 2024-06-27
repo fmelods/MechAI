@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+
+#header1,
+#footer {
+  max-height: 3.5vw;
+  min-height: 3.5vw;
+  height: 4vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+#header1 h2,
+#footer h2 {
+  font-size: 2vw;
+  color: #5499d8;
+  font-family: "Arial";
+  font-weight: 700;
+  margin: 0;
+}
+
+.header-MechAI {
+  margin-left: 1vw;
+}
+
+#menu {
+  display: flex;
+  margin-left: 2vw;
+}
+
+#menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul li {
+  margin-left: 1vw;
+  font-size: 1.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos do conteúdo principal */
+#sobre,
+#integrantes {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sobre {
+  font-size: 4vw;
+  color: black;
+}
+
+#integrantes {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas:
+    "text"
+    "marcos"
+    "leonardo"
+    "felipe";
+  gap: 0.5vw;
+}
+
+#integrantes .borda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 63vw;
+  height: 12vw;
+  background-color: #ffffff;
+  border-radius: 2.5vw;
+  border: 0.2vw solid #dddddd;
+}
+
+.infogeral {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 22vw;
+  font-size: 1.5vw;
+}
+
+.infogeral,
+.infogeral,
+.infogeral {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+}
+
+#marcos-img,
+.leo-img,
+.melo-img {
+  position: absolute;
+  right: 15vw;
+  bottom: -0.5vw;
+  margin: none;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para a área do botão */
+#buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2vw;
+  margin-top: 2vw;
+}
+
+#buttom a.but {
+  display: inline-block;
+  width: 15vw;
+  height: 5vw;
+  background-color: gray;
+  font-family: "Inter-ExtraBold", Helvetica, sans-serif;
+  font-weight: 800;
+  color: #000000;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 5vw; /* Alinha o texto verticalmente */
+  text-decoration: none; /* Remove o sublinhado */
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#buttom a.but:hover {
+  background-color: #666;
+}
+
+#img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+#footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Extra Pequeno (XS) - Telefones Pequenos: Menos de 576 pixels */
+@media (max-width: 575.98px) {
+  #header1 h2,
+  #footer h2 {
+    font-size: 4vw;
+  }
+
+  #menu ul li {
+    font-size: 3vw;
+    margin-left: 2vw;
+  }
+
+  #sobre {
+    font-size: 8vw;
+  }
+
+  .infogeral {
+    width: 45vw;
+    font-size: 3vw;
+  }
+
+  #integrantes .borda {
+    width: 90vw;
+    height: 25vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 46vw;
+    bottom: -5.5vw;
+    width: 20vw;
+    height: 20vw;
+  }
+
+}
+
+/* Pequeno (SM) - Telefones Médios e Tablets Pequenos: 576px a 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #header1 h2,
+  #footer h2 {
+    font-size: 3.5vw;
+  }
+
+  #menu ul li {
+    font-size: 2.5vw;
+    margin-left: 1.5vw;
+  }
+
+  #sobre {
+    font-size: 6vw;
+  }
+
+  .infogeral {
+    width: 35vw;
+    font-size: 2.5vw;
+  }
+
+  #integrantes .borda {
+    width: 80vw;
+    height: 20vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 38vw;
+    bottom: -2.5vw;
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+/* Médio (MD) - Tablets e Laptops: 768px a 991px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #header1 h2,
+  #footer h2 {
+    font-size: 3vw;
+  }
+
+  #menu ul li {
+    font-size: 2vw;
+    margin-left: 1.5vw;
+  }
+
+  #sobre {
+    font-size: 5vw;
+  }
+
+  .infogeral {
+    width: 30vw;
+    font-size: 2vw;
+  }
+
+  #integrantes .borda {
+    width: 70vw;
+    height: 18vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 32vw;
+    bottom: -2.5vw;
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+/* Grande (LG) - Desktops Médios: 992px a 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header1 h2,
+  #footer h2 {
+    font-size: 2.5vw;
+  }
+
+  #menu ul li {
+    font-size: 1.8vw;
+    margin-left: 1.2vw;
+  }
+
+  #sobre {
+    font-size: 4.5vw;
+  }
+
+  .infogeral {
+    width: 25vw;
+    font-size: 1.8vw;
+  }
+
+  #integrantes .borda {
+    width: 65vw;
+    height: 16vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 27vw;
+    bottom: -1vw;
+
+    width: 12vw;
+    height: 12vw;
+  }
+}
+
+/* Extra Grande (XL) - Desktops Grandes: 1200px ou mais */
+@media (min-width: 1200px) {
+  #header1 h2,
+  #footer h2 {
+    font-size: 2vw;
+  }
+
+  #menu ul li {
+    font-size: 1.5vw;
+    margin-left: 1vw;
+  }
+
+  #sobre {
+    font-size: 4vw;
+  }
+
+  .infogeral {
+    width: 22vw;
+    font-size: 1.5vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 25vw;
+    bottom: 0.1vw;
+
+    width: 10vw;
+    height: 10vw;
+  }
+
+  #integrantes .borda {
+    width: 63vw;
+    height: 12vw;
+  }
+}

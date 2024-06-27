@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>AItoFix - Inicio</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/sglobals.css" />
+    <link rel="stylesheet" href="../css/styleguide.css" />
+    <link rel="stylesheet" href="../css/solicitar.css" />
+    <script defer>
+      window.watsonAssistantChatOptions = {
+        integrationID: "651dafc6-0acd-4934-b12f-0e05671f4df0", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "7ef392b2-493d-4576-afad-7e83c149fdbd", // The ID of your service instance.
+        onLoad: async (instance) => {
+          await instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="solicitar">
+      <div class="div">
+        <header class="cabecalho">
+          <nav class="overlap-2">
+            <div class="overlap-group-2">
+              <div class="text-wrapper-5">AItoFix</div>
+              <div>
+                <a href="./solicitar.html" class="text-wrapper-6">Inicio</a>
+              </div>
+            </div>
+            <div><a href="../index.html" class="text-wrapper-7">Sair</a></div>
+            <div>
+              <a href="../paginas/historico.html" class="text-wrapper-8"
+                >Histórico</a
+              >
+            </div>
+          </nav>
+        </header>
+        <div class="orcamento">
+          <div class="overlap-group">
+            <div class="text-wrapper">Solicite um orçamento</div>
+            <div class="label-search">
+              <div class="search-bar">
+                <div class="search-bar-content">
+                  <div class="text-wrapper-2">Search</div>
+                  <img
+                    class="search"
+                    src="../img/search.png"
+                    alt="Ícone de pesquisa"
+                  />
+                </div>
+              </div>
+              <div class="resuma-o-problema">RESUMA O PROBLEMA:</div>
+            </div>
+            <div class="butt-pesquisar"><div class="label">Pesquisar</div></div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="overlap">
+            <div class="text-wrapper-3">AItoFix</div>
+            <div class="text-wrapper-4">copyright</div>
+          </div>
+        </footer>
+
+        <img
+          class="mapa-solicitar"
+          src="../img/mapa-solicitar.png"
+          alt="Mapa de solicitação de serviço"
+        />
+      </div>
+    </div>
+  </body>
+</html>
