@@ -1,0 +1,1954 @@
+{
+  "intents": [
+    {
+      "intent": "Agendamento",
+      "examples": [
+        {
+          "text": "Consegui achar uma data interessante para agendar um serviço, posso fazer isso agora?"
+        },
+        {
+          "text": "Desejo fazer um agendamento"
+        },
+        {
+          "text": "Esqueci para quando agendei a retirada do meu veículo"
+        },
+        {
+          "text": "Gostaria de realizar um agendamento."
+        },
+        {
+          "text": "Me esqueci quando tenho que levar o veículo"
+        },
+        {
+          "text": "Preciso agendar um serviço para o meu veiculo"
+        },
+        {
+          "text": "Quando iram buscar meu veiculo"
+        },
+        {
+          "text": "Quero agendar uma manutenção"
+        },
+        {
+          "text": "Quero agendar um concerto"
+        },
+        {
+          "text": "Quero agendar um serviço"
+        },
+        {
+          "text": "Quero realizar um agendamento"
+        },
+        {
+          "text": "Quero verificar um agendamento"
+        },
+        {
+          "text": "Tinha conversado com um mecânico e ainda não agendei meu serviço, posso agendar por aqui?"
+        }
+      ],
+      "description": "O cliente irá agendar uma manutenção/concerto pelo chat, com a intenção de garantir agilidade ao atendimento."
+    },
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "Belezinha, por enquanto é somente isso"
+        },
+        {
+          "text": "Blz, vlw"
+        },
+        {
+          "text": "Deus abençoe HelpCar"
+        },
+        {
+          "text": "Firmeza, obrigado"
+        },
+        {
+          "text": "Muito obrigado, foi bem rápido!"
+        },
+        {
+          "text": "Muito obrigado por me ajudar a me cadastrar"
+        },
+        {
+          "text": "Obrigado pela ajuda!"
+        },
+        {
+          "text": "Obrigado por cadastrar o meu carro"
+        },
+        {
+          "text": "Só precisava disso mesmo, vlw CarHelp"
+        },
+        {
+          "text": "Tamo junto sempre bot"
+        },
+        {
+          "text": "Tmj parceiro, ótimo atendimento"
+        },
+        {
+          "text": "Vlw irmão"
+        }
+      ],
+      "description": "O usuário vai agradecer o atendimento do Bot."
+    },
+    {
+      "intent": "Atualizar_Cadastro",
+      "examples": [
+        {
+          "text": "Atualização cadastro"
+        },
+        {
+          "text": "Atualização do cadastro"
+        },
+        {
+          "text": "Atualizar cadastro"
+        },
+        {
+          "text": "Atualizar o cadastro"
+        },
+        {
+          "text": "Consigo criar um cadastro por aqui?"
+        },
+        {
+          "text": "Estou precisando atualizar meu cadastro"
+        },
+        {
+          "text": "Gostaria de criar um cadastro"
+        },
+        {
+          "text": "Opção de atualizar o cadastro"
+        },
+        {
+          "text": "Preciso atualizar meu cadastro"
+        },
+        {
+          "text": "Preciso criar um novo cadastro"
+        },
+        {
+          "text": "Quero atualizar meu cadastro agora mesmo"
+        },
+        {
+          "text": "Quero atualizar meu cadastro usuário"
+        }
+      ],
+      "description": "O usuário terá a opção de realizar um cadastro, ou atualizar o cadastro já criado"
+    },
+    {
+      "intent": "Barulho_Estranho_Motor",
+      "examples": [
+        {
+          "text": "Analisei meu motor fazendo barulho, mas não sei o que é"
+        },
+        {
+          "text": "Estou estranhando um barulho diferente no motor"
+        },
+        {
+          "text": "Estou ouvindo um barulho estranho no meu motor"
+        },
+        {
+          "text": "Estranho demais, meu motor está barulhando muito"
+        },
+        {
+          "text": "Gostaria de saber porque meu motor faz um barulho diferente"
+        },
+        {
+          "text": "Identifiquei um barulho fora do comum no motor"
+        },
+        {
+          "text": "Meu carro está com um barulho anormal vindo do motor"
+        },
+        {
+          "text": "Meu motor está com um barulho esquisito"
+        },
+        {
+          "text": "O que poderia ser com o motor fazendo barulho?"
+        },
+        {
+          "text": "Ouvi um barulho estranho no meu motor"
+        },
+        {
+          "text": "Percebi que há um barulho vindo do motor"
+        },
+        {
+          "text": "Reparei que há um barulho no meu motor"
+        }
+      ],
+      "description": "Possíveis problemas relacionados à barulho no motor"
+    },
+    {
+      "intent": "Cadastro_Usuario",
+      "examples": [
+        {
+          "text": "Cadastrar minha pessoa"
+        },
+        {
+          "text": "Como devo me cadastrar?"
+        },
+        {
+          "text": "Como me cadastro?"
+        },
+        {
+          "text": "Consigo me cadastrar por aqui"
+        },
+        {
+          "text": "É mais fácil me cadastrar por aqui"
+        },
+        {
+          "text": "Gostaria de realizar um cadastro."
+        },
+        {
+          "text": "Me cadastrar"
+        },
+        {
+          "text": "Opção de cadastro do usuário, por favor"
+        },
+        {
+          "text": "Posso me cadastrar?"
+        },
+        {
+          "text": "Quero me cadastrar"
+        },
+        {
+          "text": "Seria possível me cadastrar?"
+        },
+        {
+          "text": "Somente me cadastrar"
+        }
+      ],
+      "description": "Intenção com objetivo de cadastrar com agilidade o usuário, ou apenas verificar e possívelmente atualizar."
+    },
+    {
+      "intent": "Cadastro_Veiculo",
+      "examples": [
+        {
+          "text": "Estou precisando cadastrar o meu carrinho"
+        },
+        {
+          "text": "Estou querendo me cadastrar aqui, tem como?"
+        },
+        {
+          "text": "Gostaria de cadastrar meu carro"
+        },
+        {
+          "text": "Gostaria de verificar o cadastro do meu carro"
+        },
+        {
+          "text": "Me cadastrei agorinha, quero cadastrar meu carro"
+        },
+        {
+          "text": "Me cadastrei e esqueci de cadastrar meu carro, quero fazer agora"
+        },
+        {
+          "text": "Meu carro não está cadastrado, quero cadastrar agora mesmo"
+        },
+        {
+          "text": "Preciso cadastrar um veículo"
+        },
+        {
+          "text": "Quero cadastrar meu veículo"
+        },
+        {
+          "text": "Quero cadastrar meu vrum vrum"
+        },
+        {
+          "text": "Tenho interesse em cadastrar um veículo"
+        },
+        {
+          "text": "Vou cadastrar meu carro"
+        }
+      ],
+      "description": "Intenção com objetivo de cadastrar o veículo do usuário com agilidade ou atualizar o cadastro."
+    },
+    {
+      "intent": "Cancelar_Agendamento",
+      "examples": [
+        {
+          "text": "Cancelar agendamento"
+        },
+        {
+          "text": "Cancelar um agendamento"
+        },
+        {
+          "text": "Desejo cancelar um agendamento por aqui, posso?"
+        },
+        {
+          "text": "Gostaria de cancelar um serviço"
+        },
+        {
+          "text": "Não preciso mais de um serviço que havia marcado"
+        },
+        {
+          "text": "Não quero mais um serviço que já havia marcado"
+        },
+        {
+          "text": "Pode me ajudar a cancelar um agendamento"
+        },
+        {
+          "text": "quero só cancelar um agendamento que está marcado para um dia ai"
+        },
+        {
+          "text": "Só vou cancelar um agendamento"
+        },
+        {
+          "text": "Tem um serviço agendamento ai, como cancelo"
+        },
+        {
+          "text": "Vi que provavelmente não vou conseguir comparecer no dia do serviço agendado"
+        },
+        {
+          "text": "Vou ir à praia no que marquei, quero cancelar"
+        }
+      ],
+      "description": "Intenção com objetivo de cancelar um serviço com mais velocidade e sem burocracia, rápido e prático"
+    },
+    {
+      "intent": "Problema_Suspensão",
+      "examples": [
+        {
+          "text": "Acho que tem algo errado com a suspensão do meu carro"
+        },
+        {
+          "text": "A direção do carro está imprecisa."
+        },
+        {
+          "text": "A suspensão do meu carro está muito dura e desconfortável"
+        },
+        {
+          "text": "Meu carro está fazendo um barulho estranho na suspensão"
+        },
+        {
+          "text": "Meu carro está meio torto"
+        },
+        {
+          "text": "O carro balança muito quando freio ou faço curvas"
+        },
+        {
+          "text": "O carro está batendo muito quando passo por lombadas"
+        },
+        {
+          "text": "O carro está muito baixo de um lado"
+        },
+        {
+          "text": "O carro oscila muito quando freio"
+        },
+        {
+          "text": "O carro parece instável na direção, principalmente em curvas"
+        },
+        {
+          "text": "O carro parece que vai cair aos pedaços quando passo por buracos"
+        },
+        {
+          "text": "Os pneus do meu carro estão se desgastando de forma irregular"
+        },
+        {
+          "text": "Sinto que o carro está perdendo o controle quando ando em alta velocidade"
+        }
+      ],
+      "description": "Possíveis causas de alguns problemas nas suspensão do veículo"
+    },
+    {
+      "intent": "Relatar_Problemas",
+      "examples": [
+        {
+          "text": "Andando com o meu carro, percebi algo estranho nele"
+        },
+        {
+          "text": "Estou com problemas no meu carro"
+        },
+        {
+          "text": "Gostaria de identificar um problema"
+        },
+        {
+          "text": "Meu carro está com algo estranho"
+        },
+        {
+          "text": "Olhando meu carro, observei um problema nele"
+        },
+        {
+          "text": "Preciso de uma ajuda com o meu carro"
+        },
+        {
+          "text": "Preciso relatar um problema"
+        },
+        {
+          "text": "Preciso saber mais sobre um problema"
+        },
+        {
+          "text": "Quero relatar um defeito"
+        },
+        {
+          "text": "Quero saber qual problema meu carro está tendo"
+        },
+        {
+          "text": "Relatarei um problema"
+        },
+        {
+          "text": "Senti um problema estranho no meu carro"
+        }
+      ],
+      "description": "Chatbot responderá conforme o que o usuário informar sobre o que identificou em seu carro"
+    },
+    {
+      "intent": "Revisão_Preventiva_Básica",
+      "examples": [
+        {
+          "text": "Analisei a necessidade do meu carro e acho que preciso de um revisão básica para deixar tudo em ordem"
+        },
+        {
+          "text": "Estou precisando realizar uma revisão simples no meu carro"
+        },
+        {
+          "text": "Gostaria de agendar revisão básica"
+        },
+        {
+          "text": "Gostaria de fazer uma revisão rápida no meu carro para verificar os itens básicos"
+        },
+        {
+          "text": "Gostaria de realizar um agendamento para uma revisão básica"
+        },
+        {
+          "text": "Posso agendar revisão simples do meu veículo?"
+        },
+        {
+          "text": "Posso agendar uma revisão básica para o final de semana?"
+        },
+        {
+          "text": "Preciso agendar revisão básica com antecedência?"
+        },
+        {
+          "text": "Preciso revisar itens básicos do carro"
+        },
+        {
+          "text": "Quero agendar uma revisão básica para ter certeza de que tudo está em ordem com meu carro"
+        },
+        {
+          "text": "Quero agendar uma revisão padrão para ter certeza de que tudo está em ordem com meu carro."
+        },
+        {
+          "text": "Quero revisão rápida para verificar tudo ok"
+        },
+        {
+          "text": "revisão básica"
+        },
+        {
+          "text": "revisão preventiva básica"
+        },
+        {
+          "text": "revisão simples"
+        }
+      ],
+      "description": "O usuário precisa de uma revisão preventiva básica"
+    },
+    {
+      "intent": "Revisão_Preventiva_Completa",
+      "examples": [
+        {
+          "text": "Desejo fazer uma revisão completissima no meu carro"
+        },
+        {
+          "text": "Gostaria de agendar a revisão completa para a próxima semana, se possível."
+        },
+        {
+          "text": "Gostaria de agendar uma revisão completa no meu carro para garantir o máximo de segurança e desempenho."
+        },
+        {
+          "text": "Necessito de uma revisão para meu carro ficar impecável"
+        },
+        {
+          "text": "Posso agendar a revisão completa para o final deste mês, caso haja vaga?"
+        },
+        {
+          "text": "Preciso de uma revisão 100% no meu carrão"
+        },
+        {
+          "text": "Preciso de uma revisão minuciosa para ter certeza de que meu veículo está em perfeitas condições"
+        },
+        {
+          "text": "Quero agendar uma revisão completinha no meu vrum vrum"
+        },
+        {
+          "text": "Quero uma revisão completa no meu carro"
+        },
+        {
+          "text": "Revisão 100%"
+        },
+        {
+          "text": "Revisão completa"
+        },
+        {
+          "text": "Revisão preventiva completa"
+        },
+        {
+          "text": "Revisão total"
+        }
+      ],
+      "description": "O usuário deseja realizar uma revisão completa em seu carro"
+    },
+    {
+      "intent": "Status_Carro",
+      "examples": [
+        {
+          "text": "E aí, meu carro já tá pronto?"
+        },
+        {
+          "text": "Gostaria de conferir o andamento da manutenção do meu carro"
+        },
+        {
+          "text": "Gostaria de conferir o andamento do concerto do meu carro"
+        },
+        {
+          "text": "Gostaria de conferir o Status do meu carro"
+        },
+        {
+          "text": "Gostaria de conferir o status do meu veículo"
+        },
+        {
+          "text": "Gostaria de verificar como meu carro está"
+        },
+        {
+          "text": "Meu carro tá aí faz tanto tempo que já tá virando peça de museu! Já posso visita-lo?"
+        },
+        {
+          "text": "O que tá rolando com o meu carro?"
+        },
+        {
+          "text": "Posso verificar o status do meu carro?"
+        },
+        {
+          "text": "Preciso do status do andamento do concerto do meu carro"
+        },
+        {
+          "text": "Preciso verificar como está o andamento da manutenção do meu carro"
+        },
+        {
+          "text": "Quero conferir o status do meu carro"
+        },
+        {
+          "text": "Só passando pra saber se já tem novidades sobre o conserto do meu possante"
+        }
+      ],
+      "description": "O usuário poderá conferir o status do seu carro, baseado no que está salvo dentro do banco de dados."
+    },
+    {
+      "intent": "welcome",
+      "examples": [
+        {
+          "text": "eae carhelp"
+        },
+        {
+          "text": "Eai car help"
+        },
+        {
+          "text": "eai mano"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oi carhelp"
+        },
+        {
+          "text": "Olá"
+        }
+      ],
+      "description": "Welcome 2.0 para acionamento"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cep",
+          "patterns": [
+            "^[0-9]{5}-[0-9]{3}$",
+            "^([0-9]{5}[\\s]{0,1}[0-9]{3})$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "CPF",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CPF",
+          "patterns": [
+            "^\\d{3}\\.?\\d{3}\\.?\\d{3}-?\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "([a-zA-Z0-9+.-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z0-9_-]+)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "placa_carro",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "placa_atual",
+          "patterns": [
+            "^[A-Z]{3}-\\d{4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "está errado",
+            "nao",
+            "nao esta certo",
+            "não está certo",
+            "não, obrigado",
+            "não precisa",
+            "negativo",
+            "never",
+            "nunca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "afirmativo",
+            "certamente",
+            "com certeza",
+            "correto",
+            "isso mesmo",
+            "isso, por favor",
+            "sim",
+            "sim, por favor"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "^\\(\\d{2}\\)\\s*\\d{5}-\\d{4}$"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fixo",
+          "synonyms": [
+            "^\\(\\d{2}\\)\\s*\\d{4}-\\d{4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 4,
+        "entities": 11,
+        "dialog_nodes": 53
+      }
+    },
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira a placa do seu carro:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1716429616477",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1716429616478",
+      "previous_sibling": "handler_6_1716429616478"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Informe qual data de cancelamento do seu serviço:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1716437537087",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1716437537097",
+      "previous_sibling": "handler_4_1716437537097"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1716503014619",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_10_1716503014631"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_4_1716236870201",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1716237087037"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1716253430571",
+      "event_name": "input",
+      "dialog_node": "handler_1_1716253430595"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716424361476",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1716424385717",
+      "previous_sibling": "node_8_1716428677351"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_7_1716435667132",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1716503014070"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1716253430571",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1716253430595",
+      "previous_sibling": "handler_1_1716253430595"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu CPF:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1716254478475",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1716254478476",
+      "previous_sibling": "handler_7_1716254478476"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Teria alguma data em mente?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1716503014619",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1716503014631",
+      "previous_sibling": "handler_10_1716503014631"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu e-mail:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1716237087857",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1716237087864",
+      "previous_sibling": "handler_8_1716237087864"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu telefone fixo ou celular:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1716337677888",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1716337677890",
+      "previous_sibling": "handler_6_1716337677890"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_1_1716436124533",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_3_1716436178577",
+      "previous_sibling": "node_6_1716436237519"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira o ano do seu veículo: "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1716429293062",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1716429293064",
+      "previous_sibling": "handler_6_1716429293064"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1716437537087",
+      "context": {
+        "date": "@sys-date.literal"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_4_1716437537097"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1716337677888",
+      "context": {
+        "telefone": "@telefone.literal"
+      },
+      "conditions": "@telefone",
+      "event_name": "input",
+      "dialog_node": "handler_6_1716337677890"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1716429293062",
+      "context": {
+        "ano_veiculo": "@sys-number.literal"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_6_1716429293064"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1716429616477",
+      "context": {
+        "placa_carro": "@placa_carro.literal"
+      },
+      "conditions": "@placa_carro",
+      "event_name": "input",
+      "dialog_node": "handler_6_1716429616478"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1716254478475",
+      "context": {
+        "CPF": "@CPF.literal"
+      },
+      "conditions": "@CPF",
+      "event_name": "input",
+      "dialog_node": "handler_7_1716254478476"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1716237087857",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_8_1716237087864"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu agendamento de uma revisão básica está marcada para o dia $date!\n\nConfirma a data?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1716435667132",
+      "conditions": "true",
+      "dialog_node": "node_10_1716435903180",
+      "previous_sibling": "slot_6_1716503014619"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro_Veículo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de realizar o cadastro do seu veículo?"
+              },
+              {
+                "text": "Quer iniciar o cadastramento do seu carro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Cadastro_Veiculo",
+      "dialog_node": "node_1_1716154128037",
+      "previous_sibling": "node_7_1716154031536"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero ter ajudado, estarei sempre aqui por você!"
+              },
+              {
+                "text": "Pode contar sempre comigo!"
+              },
+              {
+                "text": "Chamou, CarHelp chegou, qualquer coisa sabe onde me achar!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Agradecimento",
+      "dialog_node": "node_1_1716164767064",
+      "previous_sibling": "node_6_1716238275885"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de relatar um problema? Estou à disposição para te auxiliar nisso"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Relatar_Problemas",
+      "dialog_node": "node_1_1716333345956",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de cancelar qual serviço?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1716154031536",
+      "context": {},
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_1_1716436124533"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, se mudar de ideia, estarei aqui por você!\n\nSegue a lista de opções abaixo:\n\nOi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716220602765",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_1_1716499597211",
+      "previous_sibling": "node_4_1716236870201"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1716436237519",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1716154012138"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_2_1716498318844"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro realizado com sucesso!\n\nEspero ter ajudado, segue com a lista abaixo:\nOi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1716236965189",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_3_1716253286273"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Marca do seu carro é: $montadora\nModelo do seu carro é: $modelo\nAno do modelo do seu carro é: $ano_veiculo\nPlaca do veículo: $placa_carro\n\nO cadastro do seu carro está correto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1716428677351",
+      "context": {
+        "modelo": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1716428737137"
+    },
+    {
+      "type": "frame",
+      "title": " ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira o seu nome:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716220602765",
+      "context": {
+        "nome": "<? input.text ?>"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_4_1716236870201"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro do seu veículo realizado com sucesso!\nFique à vontade para escolher outra opção abaixo:\n\nOi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1716428737137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_4_1716428891165"
+    },
+    {
+      "type": "standard",
+      "title": "Agendamento_Serviço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual serviço gostaria de agendar?\n. Revisões Preventivas (básica ou completa);\n. Reparos Automotivos;\n. Outros serviços."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Revisões preventivas:",
+            "options": [
+              {
+                "label": "Revisão básica",
+                "value": {
+                  "input": {
+                    "text": "Revisão básica"
+                  }
+                }
+              },
+              {
+                "label": "Revisão completa",
+                "value": {
+                  "input": {
+                    "text": "Revisão completa"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "Reparos automotivos:",
+            "options": [
+              {
+                "label": "Troca de para-choque",
+                "value": {
+                  "input": {
+                    "text": "Reparos automotivos"
+                  }
+                }
+              },
+              {
+                "label": "Alinhamento de direção",
+                "value": {
+                  "input": {
+                    "text": "Reparos automotivos"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "Outros serviços:",
+            "options": [
+              {
+                "label": "Concerto na correia dentada",
+                "value": {
+                  "input": {
+                    "text": "Outros serviços:"
+                  }
+                }
+              },
+              {
+                "label": "Troca de óleo",
+                "value": {
+                  "input": {
+                    "text": "Outros serviços:"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Agendamento",
+      "dialog_node": "node_5_1716154012138",
+      "previous_sibling": "node_1_1716164767064"
+    },
+    {
+      "type": "standard",
+      "title": "Problema_Motor_Barulho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Barulhos Estranhos no Motor podem ser:\n\nCorreia desgastada ou solta\nRolamentos com defeito\nComponentes soltos no motor\nBomba de água com defeito\nEscapamento furado\nVálvulas com folga desregulada\nMotor batendo (falha na combustão)\n\nFoi útil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716333401841",
+      "conditions": "#Barulho_Estranho_Motor",
+      "dialog_node": "node_5_1716422809897"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu carro está com a suspensão ruim? Aqui estão algumas das principais causas:\n\nAmortecedores: Desgastados ou danificados, causam barulhos, instabilidade e desgaste irregular dos pneus.\nMolas: Quebradas, deformadas ou com perda de elasticidade, podem fazer o carro ficar baixo de um lado e comprometer o conforto.\nBuchas: Desgastadas, rachadas ou ressecadas, causam ruídos, instabilidade e desgaste irregular dos pneus.\nPivôs: Com folga, desgastados ou danificados, causam instabilidade na direção, ruídos e desgaste irregular dos pneus.\nBarra estabilizadora: Danificada ou com buchas desgastadas, causa instabilidade na direção e perda de aderência.\nTerminais de direção: Com folga, desgastados ou danificados, causam imprecisão na direção, ruídos e desgaste irregular dos pneus.\n\nFoi útil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1716333401841",
+      "conditions": "#Problema_Suspensão",
+      "dialog_node": "node_5_1716423005025",
+      "previous_sibling": "node_5_1716422809897"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lembre-se: Um diagnóstico preciso e o reparo correto da suspensão só podem ser feitos por um profissional mecânico qualificado.\nFique à vontade para agendar um serviço, siga com o agendamento na lista a seguir:\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716423005025",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_5_1716423577788"
+    },
+    {
+      "type": "frame",
+      "title": "Atualizar_Cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me informa seu CNPJ, por favor"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Atualizar_Cadastro",
+      "dialog_node": "node_6_1716238275885",
+      "previous_sibling": "node_9_1716220602765"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira a montadora do seu veículo: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716154128037",
+      "context": {},
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_6_1716424361476"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro cancelado\n\nSe preferir realizar o cadastro do veículo novamente, escolha a opção de cadastro do veículo\n\n\nOi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1716428737137",
+      "context": {
+        "modelo": null,
+        "montadora": null,
+        "ano_veiculo": null,
+        "placa_carro": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_6_1716428951228",
+      "previous_sibling": "node_4_1716428891165"
+    },
+    {
+      "type": "standard",
+      "title": "Completa",
+      "parent": "node_5_1716154012138",
+      "conditions": "#Revisão_Preventiva_Completa",
+      "dialog_node": "node_6_1716435796227",
+      "previous_sibling": "node_7_1716435667132"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento na data $date do serviço $servico_agendado foi cancelado!\n\nGostaria de agendar para outro serviço?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1716436124533",
+      "context": {
+        "servico_agendado": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1716436237519"
+    },
+    {
+      "type": "standard",
+      "title": "Cancelar_Agendamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja prosseguir para cancelar um serviço?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Cancelar_Agendamento",
+      "dialog_node": "node_7_1716154031536",
+      "previous_sibling": "node_5_1716154012138"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu nome é : $nome\nSeu e-mail é : $email\nSeu CPF é : $CPF\nSeu número de telefone é : $telefone\n\nSeu cadastro está correto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1716236870201",
+      "context": {
+        "nome": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1716236965189",
+      "previous_sibling": "slot_9_1716337677888"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lembre-se: Um diagnóstico preciso e o reparo correto do motor só podem ser feitos por um profissional mecânico qualificado.\nFique à vontade para agendar um serviço, siga com o agendamento na lista a seguir:\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716422809897",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_7_1716422872441"
+    },
+    {
+      "type": "frame",
+      "title": "Básica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Revisão básica trata-se de:\nVerificação de itens como óleo do motor, filtros, freios, pneus, bateria e luzes.\n\nDigite novamente a data para confirmarmos:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716154012138",
+      "conditions": "#Revisão_Preventiva_Básica",
+      "dialog_node": "node_7_1716435667132"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1716238275885",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1716220602765"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_8_1716253446851"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira o modelo do seu carro: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716424361476",
+      "context": {
+        "montadora": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1716428677351"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, sempre quando precisar, estaremos aqui por você!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716436237519",
+      "context": {
+        "date": null,
+        "servico_agendado": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_8_1716498341115",
+      "previous_sibling": "node_2_1716498318844"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento concluído, nos encontramos em $date!\nFique à vontade para escolher outra opção, estou aqui por você!\n\nOi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716435903180",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_8_1716582414420"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro_Usuario",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de realizar um cadastro?"
+              },
+              {
+                "text": "Quer criar um cadastro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Escolha se gostaria de prosseguir:",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "Sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "description": "Ou se preferir, pode digitar:",
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#Cadastro_Usuario",
+      "dialog_node": "node_9_1716220602765",
+      "previous_sibling": "node_1_1716333345956"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, se preferir refazer, escolha a opção cadastrar usuário novamente:\n\nOi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1716236965189",
+      "context": {
+        "CPF": null,
+        "nome": null,
+        "email": null,
+        "telefone": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:não",
+      "dialog_node": "node_9_1716253306118",
+      "previous_sibling": "node_3_1716253286273"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, descreva um pouco sobre o que você observou em seu veículo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716333345956",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_9_1716333401841"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1716236870201",
+      "variable": "$CPF",
+      "dialog_node": "slot_2_1716254478475",
+      "previous_sibling": "slot_3_1716237087857"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1716424361476",
+      "variable": "$placa_carro",
+      "dialog_node": "slot_2_1716429616477",
+      "previous_sibling": "slot_4_1716429293062"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1716236870201",
+      "variable": "$email",
+      "dialog_node": "slot_3_1716237087857",
+      "previous_sibling": "handler_1_1716237087037"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1716424361476",
+      "variable": "$ano_veiculo",
+      "dialog_node": "slot_4_1716429293062",
+      "previous_sibling": "handler_1_1716424385717"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1716435667132",
+      "variable": "$date",
+      "dialog_node": "slot_6_1716503014619",
+      "previous_sibling": "handler_1_1716503014070"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1716436124533",
+      "variable": "$date",
+      "dialog_node": "slot_7_1716437537087",
+      "previous_sibling": "handler_3_1716436178577"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1716238275885",
+      "dialog_node": "slot_9_1716253430571",
+      "previous_sibling": "node_8_1716253446851"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1716236870201",
+      "variable": "$telefone",
+      "dialog_node": "slot_9_1716337677888",
+      "previous_sibling": "slot_2_1716254478475"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, tudo bem? Sou o CarHelp, como posso lhe auxiliar?\n1- Agendamento;\n2- Cadastrar usuário;\n3- Atualizar cadastro;\n4- Cadastrar veículo;\n5- Relatar problema;\n6- Status do carro;\n7- Cancelar agendamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Escolha alguma opção da lista nos botões abaixo:",
+            "options": [
+              {
+                "label": "Agendamento ",
+                "value": {
+                  "input": {
+                    "text": "Desejo realizar um agendamento"
+                  }
+                }
+              },
+              {
+                "label": "Cadastrar Usuário",
+                "value": {
+                  "input": {
+                    "text": "Gostaria de me cadastrar"
+                  }
+                }
+              },
+              {
+                "label": "Atualizar Cadastro",
+                "value": {
+                  "input": {
+                    "text": "Desejo atualizar o cadastro"
+                  }
+                }
+              },
+              {
+                "label": "Cadastrar veículo",
+                "value": {
+                  "input": {
+                    "text": "Cadastro do meu veículo"
+                  }
+                }
+              },
+              {
+                "label": "Relatar problema",
+                "value": {
+                  "input": {
+                    "text": "Gostaria de relatar um problema"
+                  }
+                }
+              },
+              {
+                "label": "Status do carro",
+                "value": {
+                  "input": {
+                    "text": "Quero saber como está o meu carro"
+                  }
+                }
+              },
+              {
+                "label": "Cancelar agendamento",
+                "value": {
+                  "input": {
+                    "text": "Gostaria de cancelar um serviço"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome || #welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Marola"
+    }
+  ],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "cp1",
+  "name": "CarHelp-dialog"
+}
