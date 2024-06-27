@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CRIA" directorySegmentName="seg_0" id="ECABFAD8-80B0-1B21-43F5-13699F57F479">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 20:03:01 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_AItoFix_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<sourcePk>E1A2E4B9-D4A8-19A6-451E-F3593D9004C8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA7A548F-E6C9-720B-62F9-67C762B91246</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31E994F0-92E9-6C80-80FD-923BFF2F7797</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

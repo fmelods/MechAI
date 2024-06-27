@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18BE01AB-7AE5-F817-3CD2-6B16BFFD55BD" name="CARRO">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:29 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carro" id="E53A066F-8635-D949-AD16-4C523AE6299F">
+<createdBy>felip</createdBy>
+<createdTime>2024-05-19 19:01:24 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="9723FFB1-9F6E-2FE4-2360-17A24124C69C">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 22:40:48 UTC</createdTime>
+<generatorID>58FE9435-9B6E-3B63-0F41-5081D4BC6DD7</generatorID>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<referedAttribute>D562B1F7-FA80-5DC1-C5C4-D26B212AA4D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="3B6B6068-911D-600C-CD0C-20C3D2134C44">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:35 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="6FC3FFEF-8A44-31F5-CAC5-6B3AD439B8FE">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 19:55:28 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="205F5655-B7E1-6CB4-42B5-F05610D92DBF">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:33 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_fabricacao" id="66F66F0C-AACA-4DE0-4C0C-AA9C6BB32CEB">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:39 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cor" id="F3EDC11A-4D5E-7DB3-543A-BEAB6650B8D3">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:43 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="FB9CFDAD-106F-33AE-5F74-BDADAE931474">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:44 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="888B7FDB-D0D8-9957-696B-2B7DDF80D64D" name="CARRO PK">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:27:38 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E53A066F-8635-D949-AD16-4C523AE6299F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

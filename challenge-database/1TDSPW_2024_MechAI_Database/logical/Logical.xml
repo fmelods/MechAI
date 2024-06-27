@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="026BC948-853D-A376-B6D9-8D867574EBE1" mainViewID="84F91250-2B61-6FA0-5FB0-89849F0AD28F">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:11:49 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_AItoFix_Database </ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

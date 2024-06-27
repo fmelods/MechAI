@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA7A548F-E6C9-720B-62F9-67C762B91246" name="MECANICO">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:23:53 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mecanico" id="1636463F-3DA3-0EE9-7C38-DD06BFAA751E">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:18 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_oficina" id="31FD50C0-0BEF-7FE3-FB6E-341600C5F1F8">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 20:04:13 UTC</createdTime>
+<generatorID>12A1F94C-60F6-D4A3-BD83-38582C5B4FA1</generatorID>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<referedAttribute>62BA42DC-F7C5-396C-BFC5-DA812E62A2B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="209A7FD3-2F89-48F5-A55A-C680E6F24376">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:11 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="81B6E4E5-E9A8-C199-D9FB-9BA321169182">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:02 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_empresa" id="CAB0A6FA-0BA4-D125-D7AA-22BD284B0F77">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:23 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="E1A24B1F-3D3B-AEED-DFBC-61B717A328B7">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:07 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="9FFF9CA0-FE0B-6247-21A8-9FEABE2ED7F9">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:32 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="104A0B25-B286-1A24-C5E8-54A58BD01459">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:28 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especializacao" id="7B1B0ADB-0822-C804-9EF6-382F2204B18E">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 19:54:32 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="EE09AE9E-03AA-74A2-2624-0A7E2292B991">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:36 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1A2E4B9-D4A8-19A6-451E-F3593D9004C8" name="MECANICO PK">
+<createdBy>dell</createdBy>
+<createdTime>2024-05-12 18:24:16 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
+<engineerTo>
+<item key="F17BF328-6688-B3D8-9813-C8CCD2AF6BA1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1636463F-3DA3-0EE9-7C38-DD06BFAA751E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
