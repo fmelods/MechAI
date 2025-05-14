@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18BE01AB-7AE5-F817-3CD2-6B16BFFD55BD" name="CARRO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18BE01AB-7AE5-F817-3CD2-6B16BFFD55BD" name="TB_MECHAI_CARRO">
 <createdBy>dell</createdBy>
 <createdTime>2024-05-12 18:27:29 UTC</createdTime>
 <ownerDesignName>1TDSPW_2024_MechAI_Database </ownerDesignName>
@@ -51,7 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="marca" id="6FC3FFEF-8A44-31F5-CAC5-6B3AD439B8FE">
 <createdBy>dell</createdBy>
@@ -63,7 +64,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="modelo" id="205F5655-B7E1-6CB4-42B5-F05610D92DBF">
 <createdBy>dell</createdBy>
@@ -75,7 +77,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ano_fabricacao" id="66F66F0C-AACA-4DE0-4C0C-AA9C6BB32CEB">
 <createdBy>dell</createdBy>
@@ -100,7 +103,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="status" id="FB9CFDAD-106F-33AE-5F74-BDADAE931474">
 <createdBy>dell</createdBy>
@@ -112,7 +116,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
